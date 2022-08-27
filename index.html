@@ -20,7 +20,7 @@
   <body>
     <!--Header-->
     <header class="page-header">
-      <div class="container page-header-container">
+      <div class="container page-header__container">
         <nav class="page-nav">
           <a class="logo link" href="./index.html"
             >Web<span class="logo__second-part">Studio</span>
@@ -43,18 +43,29 @@
             </li>
           </ul>
         </nav>
-        <ul class="list list-contacts-header">
-          <li class="contacts-item">
-            <a class="contact-mail link" href="mailto:info@devstudio.com">
-              <svg class="icon-mail" width="16px" height="12px">
+        <ul class="contacts-list-header list">
+          <li class="contacts-list-header__item">
+            <a
+              class="contacts-list-header__mail link"
+              href="mailto:info@devstudio.com"
+            >
+              <svg
+                class="contacts-list-header__icon-mail"
+                width="16px"
+                height="12px"
+              >
                 <use href="./images/icons.svg#email"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="contacts-item">
-            <a class="contact-tel link" href="tel:+380961111111">
-              <svg class="icon-tel" width="10px" height="16px">
+          <li class="contacts-list-header__item">
+            <a class="contacts-list-header__tel link" href="tel:+380961111111">
+              <svg
+                class="contacts-list-header__icon-tel"
+                width="10px"
+                height="16px"
+              >
                 <use href="./images/icons.svg#phone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -472,7 +483,7 @@
         </div>
         <div class="footer-form">
           <p class="footer-form-desc">Подпишитесь на рассылку</p>
-          <form class="footer-form-input">
+          <form class="">
             <input
               type="email"
               name="user_email"

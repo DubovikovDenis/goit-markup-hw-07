@@ -1,4 +1,4 @@
-.page-header-container {
+.page-header__container {
     display: flex;
     align-items: center;
 }
@@ -27,13 +27,13 @@
     margin-right: 50px;
 }
 
-.list-contacts-header {
+.contacts-list-header {
     display: flex;
     justify-content: center;
     margin-left: auto;
 }
 
-.contacts-item {
+.contacts-list-header__item {
     margin-right: 50px;
 }
 
@@ -43,8 +43,8 @@
     border-bottom: 1px solid #ECECEC;
 }
 
-.icon-mail,
-.icon-tel {
+.contacts-list-header__icon-mail,
+.contacts-list-header__icon-tel {
     margin-right: 10px;
     fill: currentColor;
 }
@@ -82,7 +82,7 @@
 }
 
 
-.contact-mail {
+.contacts-list-header__mail {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -99,7 +99,7 @@
     }
 }
 
-.contact-tel {
+.contacts-list-header__tel {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
